@@ -12,9 +12,8 @@ rule:
       - 2f43138aa75fb12ac482b486cbc98569:0x180002304
   features:
     - and:
-        - mnemonic: shr
         - string: winver.exe
-        - string: WinSta0\\Default
+        - string: WinSta0\Default
         - string: taskmgr.exe
         - api: WaitForDebugEvent
         - api: ContinueDebugEvent
